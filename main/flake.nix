@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-feta-main.flake = false;
+  inputs.src-feta-main.ref   = "refs/heads/main";
   inputs.src-feta-main.owner = "FlorianRauls";
-  inputs.src-feta-main.ref   = "main";
   inputs.src-feta-main.repo  = "office-DSL-thesis";
   inputs.src-feta-main.type  = "github";
   
