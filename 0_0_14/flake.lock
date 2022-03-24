@@ -68,13 +68,11 @@
         "flakeNimbleLib": [
           "googleapi",
           "jwt",
-          "jwt-master",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
           "googleapi",
           "jwt",
-          "jwt-master",
           "nixpkgs"
         ]
       },
@@ -98,14 +96,12 @@
         "flakeNimbleLib": [
           "googleapi",
           "jwt",
-          "jwt-master",
           "bearssl",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
           "googleapi",
           "jwt",
-          "jwt-master",
           "bearssl",
           "nixpkgs"
         ],
@@ -163,11 +159,11 @@
       },
       "locked": {
         "dir": "0_1_4",
-        "lastModified": 1648111473,
-        "narHash": "sha256-J4bU698x94j9PqnXqRdEy92mjgTOB4bPg7ZqZ4cJbZA=",
+        "lastModified": 1648165188,
+        "narHash": "sha256-4V1RH6iqqFG7dpaPGLcOM8cDC7aNf5FNkucgZYs0qUU=",
         "owner": "nim-nix-pkgs",
         "repo": "googleapi",
-        "rev": "545aa6434d11f8a4b76eb370ad34f82dfbf0395b",
+        "rev": "13d8f51e2c046ee4d3b22d0b6437399cd80f788f",
         "type": "github"
       },
       "original": {
@@ -238,42 +234,13 @@
     },
     "jwt": {
       "inputs": {
-        "flakeNimbleLib": [
-          "googleapi",
-          "flakeNimbleLib"
-        ],
-        "jwt-master": "jwt-master",
-        "nixpkgs": [
-          "googleapi",
-          "nixpkgs"
-        ]
-      },
-      "locked": {
-        "lastModified": 1648081155,
-        "narHash": "sha256-Cx/KXA8YMIsRPMYVX8MGWBVEBWUfy0d4pDiEwhR8wAY=",
-        "owner": "nim-nix-pkgs",
-        "repo": "jwt",
-        "rev": "caec0e3b43b0ed6d2b3509f5f814244b20c8b0e3",
-        "type": "github"
-      },
-      "original": {
-        "owner": "nim-nix-pkgs",
-        "ref": "master",
-        "repo": "jwt",
-        "type": "github"
-      }
-    },
-    "jwt-master": {
-      "inputs": {
         "bearssl": "bearssl",
         "flakeNimbleLib": [
           "googleapi",
-          "jwt",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
           "googleapi",
-          "jwt",
           "nixpkgs"
         ],
         "src-jwt-master": "src-jwt-master"
@@ -307,11 +274,11 @@
       },
       "locked": {
         "dir": "v0_0_3",
-        "lastModified": 1648107786,
-        "narHash": "sha256-YPK19Y2utBnMEZVJzgsDcx9DY6vR2sC/lBu5ou1r6LI=",
+        "lastModified": 1648163281,
+        "narHash": "sha256-ZDCOPlb/6+LypUvnflVQ15K33iYyv7sUeU6Ruj++J90=",
         "owner": "nim-nix-pkgs",
         "repo": "mime",
-        "rev": "fe041f233da94beafd723963bbd67cc4a5aae24a",
+        "rev": "c6959596f8cd3b7608de9c73d7b912f611676260",
         "type": "github"
       },
       "original": {
@@ -519,7 +486,6 @@
         "flakeNimbleLib": [
           "googleapi",
           "jwt",
-          "jwt-master",
           "bearssl",
           "bearssl-master",
           "flakeNimbleLib"
@@ -527,7 +493,6 @@
         "nixpkgs": [
           "googleapi",
           "jwt",
-          "jwt-master",
           "bearssl",
           "bearssl-master",
           "nixpkgs"
@@ -563,11 +528,11 @@
       },
       "locked": {
         "dir": "0_5_0",
-        "lastModified": 1648108243,
-        "narHash": "sha256-QsPn/NC5xQqOskgEvpVP/tBFuhAm+fhJ74xK0Ek3dJE=",
+        "lastModified": 1648163766,
+        "narHash": "sha256-vLrM2y8B7uDADSBDFi6vh4UlV0mgiBJUSZ3t0F179Fo=",
         "owner": "nim-nix-pkgs",
         "repo": "ws",
-        "rev": "8fec8024c4e4c4ed35c94e80dc8b3deee902bb83",
+        "rev": "1aa3b21b0bcc7bd6a6c3b85cfbf4d62e87ed90c6",
         "type": "github"
       },
       "original": {
