@@ -64,7 +64,6 @@
     },
     "bearssl": {
       "inputs": {
-        "bearssl-master": "bearssl-master",
         "flakeNimbleLib": [
           "googleapi",
           "jwt",
@@ -73,36 +72,6 @@
         "nixpkgs": [
           "googleapi",
           "jwt",
-          "nixpkgs"
-        ]
-      },
-      "locked": {
-        "lastModified": 1647997775,
-        "narHash": "sha256-75YhxJ/f4icyYuACZ3ykkH0dQ5X1itwi9xOTfRdV8YA=",
-        "owner": "nim-nix-pkgs",
-        "repo": "bearssl",
-        "rev": "2a216f53a35bbc3dde8c984afce54dd306f7e124",
-        "type": "github"
-      },
-      "original": {
-        "owner": "nim-nix-pkgs",
-        "ref": "master",
-        "repo": "bearssl",
-        "type": "github"
-      }
-    },
-    "bearssl-master": {
-      "inputs": {
-        "flakeNimbleLib": [
-          "googleapi",
-          "jwt",
-          "bearssl",
-          "flakeNimbleLib"
-        ],
-        "nixpkgs": [
-          "googleapi",
-          "jwt",
-          "bearssl",
           "nixpkgs"
         ],
         "src-bearssl-master": "src-bearssl-master",
@@ -110,11 +79,11 @@
       },
       "locked": {
         "dir": "master",
-        "lastModified": 1647997775,
-        "narHash": "sha256-75YhxJ/f4icyYuACZ3ykkH0dQ5X1itwi9xOTfRdV8YA=",
+        "lastModified": 1648164265,
+        "narHash": "sha256-u+1GwLyo49nWSRYqTqwdpFR5e8qCfwDU9plB5iMMwww=",
         "owner": "nim-nix-pkgs",
         "repo": "bearssl",
-        "rev": "2a216f53a35bbc3dde8c984afce54dd306f7e124",
+        "rev": "f1b8ea3e35ee696f147f2582887986e46fbcf186",
         "type": "github"
       },
       "original": {
@@ -159,11 +128,11 @@
       },
       "locked": {
         "dir": "0_1_4",
-        "lastModified": 1648165188,
-        "narHash": "sha256-4V1RH6iqqFG7dpaPGLcOM8cDC7aNf5FNkucgZYs0qUU=",
+        "lastModified": 1648273715,
+        "narHash": "sha256-w/YvNe7zipoTQ2jbQ2oo3kQklKprgDkEBN2HAQn5qDM=",
         "owner": "nim-nix-pkgs",
         "repo": "googleapi",
-        "rev": "13d8f51e2c046ee4d3b22d0b6437399cd80f788f",
+        "rev": "6656f19629bff9cb541ff9324e4d22b514887cab",
         "type": "github"
       },
       "original": {
@@ -217,11 +186,11 @@
       },
       "locked": {
         "dir": "v0_5_0",
-        "lastModified": 1648081145,
-        "narHash": "sha256-On1PmIad+lC1xjw0OgoBdy3lHhS9n8ZupdEIlJF1MdA=",
+        "lastModified": 1648269914,
+        "narHash": "sha256-TLuIhlSpLxYLH3609Je9NfQsGJrMTOCv4I4n3OQxgqE=",
         "owner": "nim-nix-pkgs",
         "repo": "jester",
-        "rev": "64755186211050e8130f2282a3fb1267341f2083",
+        "rev": "9fa927928807fb47e48d62d5982d4cc932241592",
         "type": "github"
       },
       "original": {
@@ -247,11 +216,11 @@
       },
       "locked": {
         "dir": "master",
-        "lastModified": 1648081155,
-        "narHash": "sha256-Cx/KXA8YMIsRPMYVX8MGWBVEBWUfy0d4pDiEwhR8wAY=",
+        "lastModified": 1648269916,
+        "narHash": "sha256-Ie8yJKVUOv5ECnjAMJkCZVUWDzKfU6fR6N+SUH6anWc=",
         "owner": "nim-nix-pkgs",
         "repo": "jwt",
-        "rev": "caec0e3b43b0ed6d2b3509f5f814244b20c8b0e3",
+        "rev": "45d8d9de59a01fb48305f272812dd3fc96c6abdc",
         "type": "github"
       },
       "original": {
@@ -487,25 +456,23 @@
           "googleapi",
           "jwt",
           "bearssl",
-          "bearssl-master",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
           "googleapi",
           "jwt",
           "bearssl",
-          "bearssl-master",
           "nixpkgs"
         ],
         "src-unittest2-v0_0_3": "src-unittest2-v0_0_3"
       },
       "locked": {
         "dir": "v0_0_3",
-        "lastModified": 1647935047,
-        "narHash": "sha256-+YkpDPXGCefuXBVsa75MnGbJ8jkKhJmx676rmxG17nU=",
+        "lastModified": 1648163714,
+        "narHash": "sha256-2uFIB/e5j5/oirson4svtxDNOH4HyGWuOm7WTXle/nk=",
         "owner": "nim-nix-pkgs",
         "repo": "unittest2",
-        "rev": "632ac00c19b3d8bdec95bdc44e5c34310a55fd89",
+        "rev": "f89316ae7912f6e7883021135d91efe039ea4866",
         "type": "github"
       },
       "original": {
