@@ -11,6 +11,7 @@
   inputs.src-feta-0_0_4.ref   = "refs/tags/0.0.4";
   inputs.src-feta-0_0_4.owner = "FlorianRauls";
   inputs.src-feta-0_0_4.repo  = "office-DSL-thesis";
+  inputs.src-feta-0_0_4.dir   = "";
   inputs.src-feta-0_0_4.type  = "github";
   
   inputs."mime".owner = "nim-nix-pkgs";
