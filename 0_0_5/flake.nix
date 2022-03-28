@@ -11,7 +11,6 @@
   inputs.src-feta-0_0_5.ref   = "refs/tags/0.0.5";
   inputs.src-feta-0_0_5.owner = "FlorianRauls";
   inputs.src-feta-0_0_5.repo  = "office-DSL-thesis";
-  inputs.src-feta-0_0_5.dir   = "";
   inputs.src-feta-0_0_5.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
